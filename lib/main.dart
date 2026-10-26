@@ -1,3 +1,6 @@
+// Samuel Dominguez Lopez
+// 10mo Cuatrimestre
+// Matricula: 23030296
 import 'package:flutter/material.dart';
 import 'widgets/button_widget.dart';
 import 'widgets/card_widget.dart';
@@ -6,11 +9,11 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget { // Clase principal de la aplicación
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // Método build que construye la interfaz de usuario de la aplicación
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Material(
@@ -31,13 +34,13 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class CatalogoContenido extends StatelessWidget {
+class CatalogoContenido extends StatelessWidget { // Clase para representar el contenido del catálogo
   const CatalogoContenido({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // Método build que construye la interfaz de usuario del contenido del catálogo
     return ListView(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16), // Agrega un padding de 16 píxeles alrededor del contenido
       children: const [
         TarjetaCatalogo(
           nombre: 'Laptop',

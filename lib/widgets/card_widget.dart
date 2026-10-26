@@ -1,3 +1,6 @@
+// Samuel Dominguez Lopez
+// 10mo Cuatrimestre
+// Matricula: 23030296
 import 'package:flutter/material.dart';
 
 class TarjetaCatalogo extends StatelessWidget { // Clase para representar una tarjeta de catálogo
